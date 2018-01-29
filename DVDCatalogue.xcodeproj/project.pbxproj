@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45965629201F665800AAE39D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45965628201F665800AAE39D /* AppDelegate.swift */; };
+		4596562B201F665800AAE39D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4596562A201F665800AAE39D /* ViewController.swift */; };
+		4596562E201F665800AAE39D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4596562C201F665800AAE39D /* Main.storyboard */; };
+		45965631201F665800AAE39D /* DVDCatalogue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4596562F201F665800AAE39D /* DVDCatalogue.xcdatamodeld */; };
+		45965633201F665800AAE39D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45965632201F665800AAE39D /* Assets.xcassets */; };
+		45965636201F665800AAE39D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45965634201F665800AAE39D /* LaunchScreen.storyboard */; };
+		45965641201F665800AAE39D /* DVDCatalogueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45965640201F665800AAE39D /* DVDCatalogueTests.swift */; };
+		4596564C201F665800AAE39D /* DVDCatalogueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4596564B201F665800AAE39D /* DVDCatalogueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4596563D201F665800AAE39D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4596561D201F665800AAE39D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45965624201F665800AAE39D;
+			remoteInfo = DVDCatalogue;
+		};
+		45965648201F665800AAE39D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4596561D201F665800AAE39D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45965624201F665800AAE39D;
+			remoteInfo = DVDCatalogue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45965625201F665800AAE39D /* DVDCatalogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVDCatalogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45965628201F665800AAE39D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4596562A201F665800AAE39D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4596562D201F665800AAE39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45965630201F665800AAE39D /* DVDCatalogue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DVDCatalogue.xcdatamodel; sourceTree = "<group>"; };
+		45965632201F665800AAE39D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45965635201F665800AAE39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45965637201F665800AAE39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4596563C201F665800AAE39D /* DVDCatalogueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVDCatalogueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45965640201F665800AAE39D /* DVDCatalogueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVDCatalogueTests.swift; sourceTree = "<group>"; };
+		45965642201F665800AAE39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45965647201F665800AAE39D /* DVDCatalogueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVDCatalogueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4596564B201F665800AAE39D /* DVDCatalogueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVDCatalogueUITests.swift; sourceTree = "<group>"; };
+		4596564D201F665800AAE39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45965622201F665800AAE39D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45965639201F665800AAE39D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45965644201F665800AAE39D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4596561C201F665800AAE39D = {
+			isa = PBXGroup;
+			children = (
+				45965627201F665800AAE39D /* DVDCatalogue */,
+				4596563F201F665800AAE39D /* DVDCatalogueTests */,
+				4596564A201F665800AAE39D /* DVDCatalogueUITests */,
+				45965626201F665800AAE39D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45965626201F665800AAE39D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45965625201F665800AAE39D /* DVDCatalogue.app */,
+				4596563C201F665800AAE39D /* DVDCatalogueTests.xctest */,
+				45965647201F665800AAE39D /* DVDCatalogueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45965627201F665800AAE39D /* DVDCatalogue */ = {
+			isa = PBXGroup;
+			children = (
+				45965628201F665800AAE39D /* AppDelegate.swift */,
+				4596562A201F665800AAE39D /* ViewController.swift */,
+				4596562C201F665800AAE39D /* Main.storyboard */,
+				45965632201F665800AAE39D /* Assets.xcassets */,
+				45965634201F665800AAE39D /* LaunchScreen.storyboard */,
+				45965637201F665800AAE39D /* Info.plist */,
+				4596562F201F665800AAE39D /* DVDCatalogue.xcdatamodeld */,
+			);
+			path = DVDCatalogue;
+			sourceTree = "<group>";
+		};
+		4596563F201F665800AAE39D /* DVDCatalogueTests */ = {
+			isa = PBXGroup;
+			children = (
+				45965640201F665800AAE39D /* DVDCatalogueTests.swift */,
+				45965642201F665800AAE39D /* Info.plist */,
+			);
+			path = DVDCatalogueTests;
+			sourceTree = "<group>";
+		};
+		4596564A201F665800AAE39D /* DVDCatalogueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4596564B201F665800AAE39D /* DVDCatalogueUITests.swift */,
+				4596564D201F665800AAE39D /* Info.plist */,
+			);
+			path = DVDCatalogueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45965624201F665800AAE39D /* DVDCatalogue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45965650201F665800AAE39D /* Build configuration list for PBXNativeTarget "DVDCatalogue" */;
+			buildPhases = (
+				45965621201F665800AAE39D /* Sources */,
+				45965622201F665800AAE39D /* Frameworks */,
+				45965623201F665800AAE39D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVDCatalogue;
+			productName = DVDCatalogue;
+			productReference = 45965625201F665800AAE39D /* DVDCatalogue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4596563B201F665800AAE39D /* DVDCatalogueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45965653201F665800AAE39D /* Build configuration list for PBXNativeTarget "DVDCatalogueTests" */;
+			buildPhases = (
+				45965638201F665800AAE39D /* Sources */,
+				45965639201F665800AAE39D /* Frameworks */,
+				4596563A201F665800AAE39D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4596563E201F665800AAE39D /* PBXTargetDependency */,
+			);
+			name = DVDCatalogueTests;
+			productName = DVDCatalogueTests;
+			productReference = 4596563C201F665800AAE39D /* DVDCatalogueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45965646201F665800AAE39D /* DVDCatalogueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45965656201F665800AAE39D /* Build configuration list for PBXNativeTarget "DVDCatalogueUITests" */;
+			buildPhases = (
+				45965643201F665800AAE39D /* Sources */,
+				45965644201F665800AAE39D /* Frameworks */,
+				45965645201F665800AAE39D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45965649201F665800AAE39D /* PBXTargetDependency */,
+			);
+			name = DVDCatalogueUITests;
+			productName = DVDCatalogueUITests;
+			productReference = 45965647201F665800AAE39D /* DVDCatalogueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4596561D201F665800AAE39D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Bonitech;
+				TargetAttributes = {
+					45965624201F665800AAE39D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4596563B201F665800AAE39D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45965624201F665800AAE39D;
+					};
+					45965646201F665800AAE39D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45965624201F665800AAE39D;
+					};
+				};
+			};
+			buildConfigurationList = 45965620201F665800AAE39D /* Build configuration list for PBXProject "DVDCatalogue" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4596561C201F665800AAE39D;
+			productRefGroup = 45965626201F665800AAE39D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45965624201F665800AAE39D /* DVDCatalogue */,
+				4596563B201F665800AAE39D /* DVDCatalogueTests */,
+				45965646201F665800AAE39D /* DVDCatalogueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45965623201F665800AAE39D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45965636201F665800AAE39D /* LaunchScreen.storyboard in Resources */,
+				45965633201F665800AAE39D /* Assets.xcassets in Resources */,
+				4596562E201F665800AAE39D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4596563A201F665800AAE39D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45965645201F665800AAE39D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45965621201F665800AAE39D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4596562B201F665800AAE39D /* ViewController.swift in Sources */,
+				45965629201F665800AAE39D /* AppDelegate.swift in Sources */,
+				45965631201F665800AAE39D /* DVDCatalogue.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45965638201F665800AAE39D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45965641201F665800AAE39D /* DVDCatalogueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45965643201F665800AAE39D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4596564C201F665800AAE39D /* DVDCatalogueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4596563E201F665800AAE39D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45965624201F665800AAE39D /* DVDCatalogue */;
+			targetProxy = 4596563D201F665800AAE39D /* PBXContainerItemProxy */;
+		};
+		45965649201F665800AAE39D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45965624201F665800AAE39D /* DVDCatalogue */;
+			targetProxy = 45965648201F665800AAE39D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4596562C201F665800AAE39D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4596562D201F665800AAE39D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45965634201F665800AAE39D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45965635201F665800AAE39D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4596564E201F665800AAE39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4596564F201F665800AAE39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45965651201F665800AAE39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG8ESX9V8D;
+				INFOPLIST_FILE = DVDCatalogue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.bonitech.DVDCatalogue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45965652201F665800AAE39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG8ESX9V8D;
+				INFOPLIST_FILE = DVDCatalogue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.bonitech.DVDCatalogue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45965654201F665800AAE39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG8ESX9V8D;
+				INFOPLIST_FILE = DVDCatalogueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.bonitech.DVDCatalogueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVDCatalogue.app/DVDCatalogue";
+			};
+			name = Debug;
+		};
+		45965655201F665800AAE39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG8ESX9V8D;
+				INFOPLIST_FILE = DVDCatalogueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.bonitech.DVDCatalogueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVDCatalogue.app/DVDCatalogue";
+			};
+			name = Release;
+		};
+		45965657201F665800AAE39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG8ESX9V8D;
+				INFOPLIST_FILE = DVDCatalogueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.bonitech.DVDCatalogueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DVDCatalogue;
+			};
+			name = Debug;
+		};
+		45965658201F665800AAE39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG8ESX9V8D;
+				INFOPLIST_FILE = DVDCatalogueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.bonitech.DVDCatalogueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DVDCatalogue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45965620201F665800AAE39D /* Build configuration list for PBXProject "DVDCatalogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4596564E201F665800AAE39D /* Debug */,
+				4596564F201F665800AAE39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45965650201F665800AAE39D /* Build configuration list for PBXNativeTarget "DVDCatalogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45965651201F665800AAE39D /* Debug */,
+				45965652201F665800AAE39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45965653201F665800AAE39D /* Build configuration list for PBXNativeTarget "DVDCatalogueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45965654201F665800AAE39D /* Debug */,
+				45965655201F665800AAE39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45965656201F665800AAE39D /* Build configuration list for PBXNativeTarget "DVDCatalogueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45965657201F665800AAE39D /* Debug */,
+				45965658201F665800AAE39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4596562F201F665800AAE39D /* DVDCatalogue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45965630201F665800AAE39D /* DVDCatalogue.xcdatamodel */,
+			);
+			currentVersion = 45965630201F665800AAE39D /* DVDCatalogue.xcdatamodel */;
+			path = DVDCatalogue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4596561D201F665800AAE39D /* Project object */;
+}
